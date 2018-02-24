@@ -7,12 +7,11 @@ Last tested by: Bryan Weber
 
 # Commands to run
 
-`
-curl -O https://git.io/vAwOs looker_bin_install_pt1
+```curl -O https://git.io/vAwOs looker_bin_install_pt1
 ./looker_bin_install_pt1
 curl -O ttps://git.io/vAwOI looker_bin_install_pt2
 ./looker_bin_install_pt1
-`
+```
 
 # Notes
 
