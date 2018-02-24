@@ -8,9 +8,9 @@ Last tested by: Bryan Weber<br/>
 # Commands to run
 
 ```
-curl -o looker_bin_install_pt1 https://git.io/vAwOs 
+wget https://git.io/vAwOs -O looker_bin_install_pt1
 ./looker_bin_install_pt1
-curl -o looker_bin_install_pt2 https://git.io/vAwOI 
+wget https://git.io/vAwOI -O looker_bin_install_pt2
 ./looker_bin_install_pt2
 ```
 
