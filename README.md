@@ -1,7 +1,7 @@
 # From a fresh virtual machine
 
 Last tested: 2017-02-20<br/>
-Last tested on: Azure<br/>
+Last tested on: Azure / Google Cloud<br/>
 Last tested OS: Ubuntu 16.04<br/>
 Last tested by: Bryan Weber<br/>
 
