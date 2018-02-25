@@ -5,7 +5,7 @@ Last tested on: Azure / Google Cloud<br/>
 Last tested OS: Ubuntu 16.04<br/>
 Last tested by: Bryan Weber<br/>
 
-# Commands to run
+# Commands to run on Virtual Machine
 
 ```
 wget https://git.io/vAwOs -O looker_bin_install_pt1
