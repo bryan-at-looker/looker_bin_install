@@ -11,11 +11,16 @@ Last tested by: Bryan Weber<br/>
 wget https://git.io/vAwOs -O looker_bin_install_pt1
 chmod 755 looker_bin_install_pt1
 ./looker_bin_install_pt1
+```
+Follow prompts while running.<br/>
+Once complete, run these commands
+```
 wget https://git.io/vAwOI -O looker_bin_install_pt2
 chmod 755 looker_bin_install_pt2
 ./looker_bin_install_pt2
 
 ```
+Looker should be starting up on port 9999.
 
 # Notes
 
