@@ -1,12 +1,6 @@
-# From a fresh virtual machine
+The commands below gets a running Looker instance on https://<your host or static ip>:9999 without a DNS or an SSL certificate. Looker runs through port 9999, make sure to allow inbound network traffic.
 
-Last tested: 2017-02-20<br/>
-Last tested on: Azure / Google Cloud<br/>
-Last tested OS: Ubuntu 16.04<br/>
-Last tested by: Bryan Weber<br/>
-
-# Commands to run on Virtual Machine
-
+# Commands to run on Ubuntu 16
 ```
 wget https://git.io/vAwOs -O looker_bin_install_pt1
 chmod 755 looker_bin_install_pt1
@@ -32,3 +26,10 @@ short_link: https://git.io/vAwOs
 
 url: https://raw.githubusercontent.com/bryan-at-looker/looker_bin_install/master/looker_bin_install_pt2 <br/>
 short_link: https://git.io/vAwOI
+
+# From a fresh virtual machine
+
+Last tested: 2017-02-20<br/>
+Last tested on: Azure / Google Cloud<br/>
+Last tested OS: Ubuntu 16.04<br/>
+Last tested by: Bryan Weber<br/>
