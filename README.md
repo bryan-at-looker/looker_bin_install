@@ -1,4 +1,4 @@
-The commands below gets a running Looker instance on https://<your host or static ip>:9999 without a DNS or an SSL certificate. Looker runs through port 9999, make sure to allow inbound network traffic.
+The commands below gets a running Looker instance on https://\<your host or static ip\>:9999 without a DNS or an SSL certificate. Looker runs through port 9999, make sure to allow inbound network traffic.
 
 # Commands to run on Ubuntu 16
 ```
