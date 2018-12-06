@@ -47,7 +47,11 @@ sudo ln -sf /usr/local/share/$PHANTOM_JS/bin/phantomjs /usr/local/bin
 phantomjs --version
 
 # Install Chrome Browser (chromium) for v5.20 or later
-sudo apt-get install chromium-browser
+apt-get install fonts-freefont-otf
+apt-get update && apt-get install -y chromium-browser
+alias chromium='chromium-browser'
+sudo ln -s /usr/bin/chromium-browser /usr/bin/chromium
+
 
 # create looker user and sudo as them
 sudo groupadd looker
