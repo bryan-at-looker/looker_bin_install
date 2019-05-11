@@ -29,7 +29,12 @@ short_link: https://git.io/vAwOI
 
 # From a fresh virtual machine
 
-Last tested: 2017-02-20<br/>
-Last tested on: Azure / Google Cloud<br/>
+Last tested: 2017-04-18<br/>
+Last tested on: Google Cloud<br/>
 Last tested OS: Ubuntu 16.04<br/>
-Last tested by: Bryan Weber<br/>
+Last tested by: Spencer Wanlass<br/>
+
+tested: 2017-02-20<br/>
+tested on: Azure / Google Cloud<br/>
+tested OS: Ubuntu 16.04<br/>
+tested by: Bryan Weber<br/>
