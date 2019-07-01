@@ -15,7 +15,7 @@ curl -O https://raw.githubusercontent.com/looker/customer-scripts/master/startup
 chmod +x looker
 
 #download jar
-wget -O "looker-latest.jar" "$(curl -s -X POST -H 'Content-Type: application/json' -d '{"lic": "YOURLICENSEKEY", "email": "bryan.weber@looker.com", "latest":"latest"}' "https://apidownload.looker.com/download" | jq .url -r)"
+wget -O "looker-latest.jar" "$(curl -s -X POST -H 'Content-Type: application/json' -d '{"lic": "YOURLICENSEKEY", "email": "YOUREMAIL", "latest":"latest"}' "https://apidownload.looker.com/download" | jq .url -r)"
 mv looker-latest.jar looker.jar
 
 ./looker start
