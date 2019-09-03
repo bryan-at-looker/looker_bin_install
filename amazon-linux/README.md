@@ -2,14 +2,23 @@ The commands below gets a running Looker instance on https://\<your host or stat
 
 # Commands to run on Ubuntu 16
 ```
-wget https://raw.githubusercontent.com/bryan-at-looker/looker_bin_install/rearrange/amazon-linux/amazon-linux-1.sh -O looker_bin_install_pt1
+wget https://raw.githubusercontent.com/bryan-at-looker/looker_bin_install/master/amazon-linux/amazon-linux-1.sh -O looker_bin_install_pt1
 chmod 755 looker_bin_install_pt1
 ./looker_bin_install_pt1
 ```
 Follow prompts while running.<br/>
 Once complete, run these commands
+
+Go here, enter your email, license key, and accept the EULA: https://download.looker.com/validate<br/> 
+
+Once complete, you've created a looker user and are acting as that use. Run these commands while substituting your Looker license key and email address in the environment variables
+
 ```
-wget https://raw.githubusercontent.com/bryan-at-looker/looker_bin_install/rearrange/amazon-linux/amazon-linux-2.sh -O looker_bin_install_pt2
+export LOOKERLICENSE=YOURLICENSEKEY1234
+export EMAIL=youremail@yourcompany.com
+
+```
+wget https://raw.githubusercontent.com/bryan-at-looker/looker_bin_install/master/amazon-linux/amazon-linux-2.sh -O looker_bin_install_pt2
 chmod 755 looker_bin_install_pt2
 ./looker_bin_install_pt2
 ```
